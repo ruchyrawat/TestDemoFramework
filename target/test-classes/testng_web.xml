@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Web_Test_Execution_Suite" parallel="tests" thread-count="3" data-provider-thread-count="3">
+    <listeners>
+        <listener class-name="com.impactqa.listeners.TestNGExecutionListener"/>
+    </listeners>
+
+    <test name="WFM_T1106_AdvancedDeviceDetailsAirDeviceConnectivityStatus_Test">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="dataID" value="WelcomeBack"/>
+        <classes>
+            <class name="com.impactqa.test.web.WFM_Sprint19_Client_Portal.WFM_T1106_AdvancedDeviceDetailsAirDeviceConnectivityStatus_Test"/>
+        </classes>
+    </test>
+
+</suite>

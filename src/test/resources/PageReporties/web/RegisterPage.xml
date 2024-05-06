@@ -1,0 +1,26 @@
+<objects>
+	<object name="txtEmail">
+		<web locatorType="xpath" locatorValue="//input[@name='email']" />
+	</object>
+
+	<object name="txtPassword">
+		<web locatorType="xpath" locatorValue="//input[@name='password']" />
+	</object>
+
+	<object name="chkAcceptTerms">
+		<web locatorType="xpath" locatorValue="//span[contains(@class,'chakra-checkbox__control')]" />
+	</object>
+
+	<object name="btnRegister">
+		<web locatorType="xpath" locatorValue="//p/parent::div/button[text()='Register']" />
+	</object>
+
+	<object name="txtOTP">
+		<web locatorType="xpath" locatorValue="//input[@aria-label='Please enter your pin code']" />
+	</object>
+
+	<object name="btnVerify">
+		<web locatorType="xpath" locatorValue="//button[text()='Verify']" />
+	</object>
+
+</objects>

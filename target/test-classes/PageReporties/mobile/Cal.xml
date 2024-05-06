@@ -1,0 +1,17 @@
+<objects>
+	<object name="Five" >
+		<android locatorType="xpath" locatorValue="" />
+		<ios locatorType="xpath" locatorValue="" />
+	</object>
+
+	<object name="Add" >
+		<android locatorType="xpath" locatorValue="" />
+		<ios locatorType="xpath" locatorValue="" />
+	</object>
+
+	<object name="Add" >
+		<android locatorType="xpath" locatorValue="" />
+		<ios locatorType="xpath" locatorValue="" />
+	</object>
+
+</objects>

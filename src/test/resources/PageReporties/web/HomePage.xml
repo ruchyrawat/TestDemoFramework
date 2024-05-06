@@ -1,0 +1,10 @@
+<objects>
+	<object name="btnLogin">
+		<web locatorType="xpath" locatorValue="//a[@href='/en/login']/button[text()='Login']" />
+	</object>
+
+	<object name="btnRegister">
+		<web locatorType="xpath" locatorValue="//a[@href='/en/register']/button[text()='Register']" />
+	</object>
+
+</objects>

@@ -1,0 +1,18 @@
+<objects>
+	<object name="txtEmailAddress">
+		<web locatorType="xpath" locatorValue="//input[@id='login']" />
+	</object>
+
+	<object name="txtOTP">
+		<web locatorType="xpath" locatorValue="(//main[@class='yscrollbar']//p)[3]" />
+	</object>
+
+	<object name="icnRefresh">
+		<web locatorType="id" locatorValue="refresh" />
+	</object>
+
+	<object name="lnkNewMail">
+		<web locatorType="xpath" locatorValue="(//span[text()='BitDelta Exchange'])[1]" />
+	</object>
+
+</objects>

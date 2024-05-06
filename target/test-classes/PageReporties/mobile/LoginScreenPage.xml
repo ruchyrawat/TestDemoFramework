@@ -1,0 +1,59 @@
+<objects>
+	<object name="login" >
+		<android locatorType="xpath" locatorValue="//android.view.View[@text='Already a Member? Log In']" />
+		<ios locatorType="xpath" locatorValue="//XCUIElementTypeStaticText[@name='Log In']" />
+	</object>
+
+	<object name="loginPage" >
+		<android locatorType="xpath" locatorValue="//android.view.View[@text='Log In' and @index='0']" />
+		<ios locatorType="xpath" locatorValue="(//XCUIElementTypeStaticText[@name='Log In'])[1]" />
+	</object>
+
+	<object name="enterEmail" >
+		<android locatorType="xpath" locatorValue="//android.widget.EditText[@index='1']" />
+<!--		<ios locatorType="xpath" locatorValue="//XCUIElementTypeTextField[@index='1']" />-->
+		<ios locatorType="xpath" locatorValue="//XCUIElementTypeOther[@name='Darwin UX Engine']//child::XCUIElementTypeTextField" />
+	</object>
+
+	<object name="enterPassword" >
+		<android locatorType="xpath" locatorValue="//android.widget.EditText[@index='2']" />
+<!--		<ios locatorType="xpath" locatorValue="//XCUIElementTypeSecureTextField[@index='2']" />-->
+		<ios locatorType="xpath" locatorValue="//XCUIElementTypeOther[@name='Darwin UX Engine']//child:: XCUIElementTypeSecureTextField" />
+	</object>
+
+	<object name="loginButton" >
+		<android locatorType="xpath" locatorValue="//android.view.View[@text='Log In' and @index='4']" />
+		<ios locatorType="xpath" locatorValue="(//XCUIElementTypeStaticText[@name='Log In'])[2]" />
+	</object>
+
+	<object name="select" >
+		<android locatorType="xpath" locatorValue="//android.widget.Button[@text='SELECT']" />
+		<ios locatorType="xpath" locatorValue="//*[@name='SELECT']" />
+	</object>
+
+	<object name="MindBreaksDev" >
+		<android locatorType="xpath" locatorValue="//android.widget.RadioButton[@text='MindBreaksDev']" />
+		<ios locatorType="xpath" locatorValue="//*[@name='MindBreaksDev']" />
+	</object>
+
+	<object name="Experiences" >
+		<android locatorType="xpath" locatorValue="//android.widget.Button[@text='experiences Experiences'] | //*[@id='bottom_bar']//button[@name='favorites'] | //*[text()='Favorites']" />
+		<ios locatorType="xpath" locatorValue="//XCUIElementTypeButton[@name='experiences Experiences']" />
+	</object>
+
+	<object name="Version" >
+		<android locatorType="xpath" locatorValue="//div[contains(text(),'Version')]" />
+		<ios locatorType="xpath" locatorValue="//XCUIElementTypeStaticText[contains(@name,'Version')]" />
+	</object>
+
+	<object name="More" >
+		<android locatorType="xpath" locatorValue="//android.widget.Button[@text='more More'] | //*[@id='bottom_bar']//button[@name='more'] | //*[text()='More']" />
+		<ios locatorType="xpath" locatorValue="//XCUIElementTypeButton[@name='more More']" />
+	</object>
+
+	<object name="Logout" >
+		<android locatorType="xpath" locatorValue="//android.view.View[@text='Log Out'] | //*[text()='Log Out']" />
+		<ios locatorType="xpath" locatorValue="//XCUIElementTypeStaticText[@name='Log Out']" />
+	</object>
+
+</objects>

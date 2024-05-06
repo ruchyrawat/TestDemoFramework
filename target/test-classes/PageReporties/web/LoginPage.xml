@@ -1,0 +1,15 @@
+<objects>
+
+	<object name="txtEmail">
+		<web locatorType="xpath" locatorValue="//input[@name='email']" />
+	</object>
+
+	<object name="txtPassword">
+		<web locatorType="xpath" locatorValue="//input[@name='password']" />
+	</object>
+
+	<object name="btnLogin">
+		<web locatorType="xpath" locatorValue="//button[text()='Log In']" />
+	</object>
+
+</objects>

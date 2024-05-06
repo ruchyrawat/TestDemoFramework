@@ -1,0 +1,7 @@
+<objects>
+
+	<object name="btnSkip">
+		<web locatorType="xpath" locatorValue="//button[text()='Skip']" />
+	</object>
+
+</objects>

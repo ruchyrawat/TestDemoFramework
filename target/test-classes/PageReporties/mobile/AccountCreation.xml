@@ -1,0 +1,22 @@
+<objects>
+	<object name="Email" >
+		<android locatorType="xpath" locatorValue="" />
+		<ios locatorType="xpath" locatorValue="//XCUIElementTypeOther[@name='Darwin UX Engine']//child::XCUIElementTypeTextField[1]" />
+	</object>
+
+	<object name="ReEnterEmail" >
+		<android locatorType="xpath" locatorValue="" />
+		<ios locatorType="xpath" locatorValue="//XCUIElementTypeOther[@name='Darwin UX Engine']//child::XCUIElementTypeTextField[2]" />
+	</object>
+
+	<object name="register" >
+		<android locatorType="xpath" locatorValue="" />
+		<ios locatorType="xpath" locatorValue="(//XCUIElementTypeStaticText[@name='Register'])[2]" />
+	</object>
+
+	<object name="yourCode" >
+		<android locatorType="xpath" locatorValue="" />
+		<ios locatorType="xpath" locatorValue="//XCUIElementTypeStaticText[@name='Enter Your Code']" />
+	</object>
+
+</objects>
